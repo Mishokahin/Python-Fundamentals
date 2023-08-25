@@ -1,0 +1,1 @@
+print(sorted(list(input().split(", ")), key=lambda x: (-len(x), x)))
